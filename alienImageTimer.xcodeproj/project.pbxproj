@@ -14,6 +14,11 @@
 		FE657E902074993D00BE2B44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE657E8E2074993D00BE2B44 /* LaunchScreen.storyboard */; };
 		FE657E9B2074993D00BE2B44 /* alienImageTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE657E9A2074993D00BE2B44 /* alienImageTimerTests.swift */; };
 		FE657EA62074993D00BE2B44 /* alienImageTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE657EA52074993D00BE2B44 /* alienImageTimerUITests.swift */; };
+		FE657EB920749A6200BE2B44 /* frame2.png in Resources */ = {isa = PBXBuildFile; fileRef = FE657EB420749A6100BE2B44 /* frame2.png */; };
+		FE657EBA20749A6200BE2B44 /* frame3.png in Resources */ = {isa = PBXBuildFile; fileRef = FE657EB520749A6100BE2B44 /* frame3.png */; };
+		FE657EBB20749A6200BE2B44 /* frame4.png in Resources */ = {isa = PBXBuildFile; fileRef = FE657EB620749A6100BE2B44 /* frame4.png */; };
+		FE657EBC20749A6200BE2B44 /* frame1.png in Resources */ = {isa = PBXBuildFile; fileRef = FE657EB720749A6200BE2B44 /* frame1.png */; };
+		FE657EBD20749A6200BE2B44 /* frame5.png in Resources */ = {isa = PBXBuildFile; fileRef = FE657EB820749A6200BE2B44 /* frame5.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		FE657EA12074993D00BE2B44 /* alienImageTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alienImageTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE657EA52074993D00BE2B44 /* alienImageTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alienImageTimerUITests.swift; sourceTree = "<group>"; };
 		FE657EA72074993D00BE2B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE657EB420749A6100BE2B44 /* frame2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame2.png; sourceTree = "<group>"; };
+		FE657EB520749A6100BE2B44 /* frame3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame3.png; sourceTree = "<group>"; };
+		FE657EB620749A6100BE2B44 /* frame4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame4.png; sourceTree = "<group>"; };
+		FE657EB720749A6200BE2B44 /* frame1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame1.png; sourceTree = "<group>"; };
+		FE657EB820749A6200BE2B44 /* frame5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame5.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,7 @@
 		FE657E842074993D00BE2B44 /* alienImageTimer */ = {
 			isa = PBXGroup;
 			children = (
+				FE657EB320749A1700BE2B44 /* images */,
 				FE657E852074993D00BE2B44 /* AppDelegate.swift */,
 				FE657E872074993D00BE2B44 /* ViewController.swift */,
 				FE657E892074993D00BE2B44 /* Main.storyboard */,
@@ -123,6 +134,18 @@
 				FE657EA72074993D00BE2B44 /* Info.plist */,
 			);
 			path = alienImageTimerUITests;
+			sourceTree = "<group>";
+		};
+		FE657EB320749A1700BE2B44 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				FE657EB720749A6200BE2B44 /* frame1.png */,
+				FE657EB420749A6100BE2B44 /* frame2.png */,
+				FE657EB520749A6100BE2B44 /* frame3.png */,
+				FE657EB620749A6100BE2B44 /* frame4.png */,
+				FE657EB820749A6200BE2B44 /* frame5.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +255,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE657EBB20749A6200BE2B44 /* frame4.png in Resources */,
+				FE657EBA20749A6200BE2B44 /* frame3.png in Resources */,
 				FE657E902074993D00BE2B44 /* LaunchScreen.storyboard in Resources */,
 				FE657E8D2074993D00BE2B44 /* Assets.xcassets in Resources */,
+				FE657EB920749A6200BE2B44 /* frame2.png in Resources */,
+				FE657EBD20749A6200BE2B44 /* frame5.png in Resources */,
+				FE657EBC20749A6200BE2B44 /* frame1.png in Resources */,
 				FE657E8B2074993D00BE2B44 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
